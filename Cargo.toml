@@ -1,8 +1,14 @@
 [package]
-name = "password-strength-rs"
-version = "0.1.0"
 authors = ["Daniel Sonne Lehnberg <doddy@doddy.se>"]
+categories = ["wasm"]
+description = "A password strength calculator written in Rust and compiled to WASM"
+documentation = "https://github.com/doddydigitaldesign/password-strength-rs"
 edition = "2018"
+license = "MIT/Apache-2.0"
+name = "password-strength-rs"
+readme = "README.md"
+repository = "https://github.com/doddydigitaldesign/password-strength-rs.git"
+version = "0.1.0"
 
 [lib]
 crate-type = ["cdylib", "rlib"]
@@ -17,14 +23,14 @@ wasm-bindgen = "0.2.63"
 # logging them with `console.error`. This is great for development, but requires
 # all the `std::fmt` and `std::panicking` infrastructure, so isn't great for
 # code size when deploying.
-console_error_panic_hook = { version = "0.1.6", optional = true }
+console_error_panic_hook = {version = "0.1.6", optional = true}
 
 # `wee_alloc` is a tiny allocator for wasm that is only ~1K in code size
 # compared to the default allocator's ~10K. It is slower than the default
 # allocator, however.
 #
 # Unfortunately, `wee_alloc` requires nightly Rust when targeting wasm for now.
-wee_alloc = { version = "0.4.5", optional = true }
+wee_alloc = {version = "0.4.5", optional = true}
 
 [dev-dependencies]
 wasm-bindgen-test = "0.3.13"

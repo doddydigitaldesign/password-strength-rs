@@ -381,3 +381,9 @@ fn strength_test() {
 }
 
 ```
+
+And there we go. Before we publish our library on NPM, we should update the readme. Let's open up `README.md`:
+```
+# password-strength-rs
+*A password strength calculator written in Rust and compiled to WASM*
+```
