@@ -382,8 +382,20 @@ fn strength_test() {
 
 ```
 
-And there we go. Before we publish our library on NPM, we should update the readme. Let's open up `README.md`:
+Now we're ready to publish or library on [NPM](https://www.npmjs.com)
+
+## Publishing on NPM
+Make sure that you have an account on npmjs.org before running the following command:
+```sh
+wasm-pack publish
 ```
-# password-strength-rs
-*A password strength calculator written in Rust and compiled to WASM*
+
+And there we go, our published package can be viewed here: [npmjs.com/package/password-strength-rs](https://www.npmjs.com/package/password-strength-rs) and installed via
+```sh
+npm install password-strength-rs
 ```
+
+Thanks for reading ❤ 
+
+Daniel
+[www.doddy.se](https://www.doddy.se)
