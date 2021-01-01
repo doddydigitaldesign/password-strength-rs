@@ -24,4 +24,4 @@ const strength = calc.get_strength();
 ```
 
 ## Related guide
-See [GUIDE.md](https://github.com/doddydigitaldesign/password-strength-rs/blob/main/GUIDE.md) or visit [www.doddy.se/guides/password-strength-with-wasm](https://www.doddy.se/guides/password-strength-with-wasm).
+See [GUIDE.md](https://github.com/doddydigitaldesign/password-strength-rs/blob/main/GUIDE.md) or visit [www.doddy.se/guides](https://www.doddy.se/guides).
