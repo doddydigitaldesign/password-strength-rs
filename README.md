@@ -8,10 +8,10 @@ npm install password-strength-rs
 
 ## Usage
 The `get_strength` method converts the estimated password entropy into a human-readable format:
-- `"very-low"`: 0-28 bits
-- `"low"`: 28-59 bits
-- `"high"`: 59-127 bits
-- `"very-high"`: 128 bits or more
+- `"very-weak"`: 0-28 bits
+- `"weak"`: 28-59 bits
+- `"strong"`: 59-127 bits
+- `"very-strong"`: 128 bits or more
 ```ts
 import { Calculator } from 'password-strength-rs';
 
